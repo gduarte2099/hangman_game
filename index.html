@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hangman game</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--scripts, wordlist debe ir antes, ya que es la que contiene el array-->
+  <script src="js/word-list.js" defer></script>
+  <script src="js/main.js" defer></script>
+
+  <link rel="shortcut icon" href="./images/logoicon.png">
+
+</head>
+
+<body>
+  <!-- modal del game -->
+  <div class="game-modal">
+    <div class="content">
+      <img src="images/lost.gif" alt="lost-gif">
+      <h4>Game Over</h4>
+      <p>La palabra correcta era: <b>palabra</b></p>
+      <button class="play-again">Jugar de nuevo</button>
+    </div>
+  </div>
+
+  <!-- seccion principal -->
+  <div class="container">
+    <div class="hangman-box">
+      <img src="images/hangman-0.svg" alt="hangman-img">
+      <h1>Hangman Game</h1>
+    </div>
+
+    <div class="game-box">
+      <ul class="word-display">
+      </ul>
+      <h4 class="hint-text">
+        Pista:
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, accusantium.</b>
+      </h4>
+      <h4 class="guesses-text">
+        Conjeturas incorrectas:
+        <b>0/6</b>
+      </h4>
+      <div class="keyboard">
+        <!-- <button>q</button><button>u</button><button>e</button><button>r</button><button>t</button><button>y</button><button>u</button><button>i</button><button>o</button><button>p</button>
+        <button>a</button><button>s</button><button>d</button><button>f</button><button>g</button><button>h</button><button>j</button><button>k</button><button>l</button>
+        <button>z</button><button>x</button><button>c</button><button>v</button><button>b</button><button>n</button><button>m</button> -->
+      </div>
+    </div>
+
+</body>
+
+</html>
