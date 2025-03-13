@@ -249,7 +249,7 @@ const wordList = [
   },
   {
     "word": "fotosíntesis",
-    "hint": "es un proceso químico que consiste en la conversión de materia inorgánica a materia orgánica gracias a la energía que aporta la luz solar."
+    "hint": "Es un proceso químico que consiste en la conversión de materia inorgánica a materia orgánica gracias a la energía que aporta la luz solar."
   },
   {
     "word": "vibrante",
@@ -264,3 +264,5 @@ const wordList = [
     "hint": "Excepcionalmente inteligente, talentoso o impresionante."
   }
 ]
+
+export default wordList;
